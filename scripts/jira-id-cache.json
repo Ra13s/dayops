@@ -1,0 +1,12 @@
+{
+  "_doc": "Numeric Jira issue ID → key mapping. Cache for Tempo originTaskId resolution. Agent writes to this file when new IDs are resolved via Atlassian MCP. Safe to commit (project-level, no secrets).",
+  "643029": {"key": "PR003919-1401", "project": "PR003919", "summary": "[TECHNICAL ANALYSIS] C2 API — Architecture & Implementation Plan"},
+  "558752": {"key": "PR003919-78",   "project": "PR003919", "summary": "Internal meetings"},
+  "655372": {"key": "PR003919-1540", "project": "PR003919", "summary": "[Technical Analysis] UC-004e: Critical Infrastructure Threat"},
+  "646540": {"key": "PR003919-1463", "project": "PR003919", "summary": "Coordinate & refine Jira tasks to align data flow and data models"},
+  "646539": {"key": "PR003919-1462", "project": "PR003919", "summary": "Define unit conversion strategy"},
+  "535671": {"key": "E607226-17",    "project": "E607226",  "summary": "Kodaniku EBS - Billable"},
+  "617311": {"key": "E607250-73",    "project": "E607250",  "summary": "3. parandustarne tagasiside"},
+  "588320": {"key": "PR004818-3",    "project": "PR004818", "summary": "Thought leadership"},
+  "627812": {"key": "PR004729-1",    "project": "PR004729", "summary": "RMK metsanduse hange"}
+}

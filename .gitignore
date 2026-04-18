@@ -1,0 +1,32 @@
+# User-specific config (contains personal data)
+user-profile.yaml
+
+# Daily plan files (personal, generated)
+plans/
+
+# Brainstorming artifacts
+.superpowers/
+
+# Playwright MCP artifacts (tokens, screenshots, network dumps)
+.playwright-mcp/
+
+# Quarantined raw data (email etc) — transient, never committed
+raw/*
+!raw/.gitkeep
+
+# Claude Code session artifacts
+.claude/scheduled_tasks.lock
+.claude/scheduled_tasks.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+docs/superpowers/
