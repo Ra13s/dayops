@@ -1,0 +1,11 @@
+[mcp_servers.playwright]
+command = "npx"
+args = ["@playwright/mcp@latest"]
+startup_timeout_sec = 15
+tool_timeout_sec = 90
+
+[mcp_servers.atlassian]
+command = "npx"
+args = ["-y", "mcp-remote@latest", "https://mcp.atlassian.com/v1/mcp"]
+startup_timeout_sec = 30
+tool_timeout_sec = 120

@@ -1,0 +1,26 @@
+# User-specific data (everything personal goes in user/)
+# Exception: *.example.* files are shipped templates (committed)
+user/*
+!user/.gitkeep
+!user/*.example.*
+
+# Playwright MCP tool scratch (tokens, network dumps)
+.playwright-mcp/
+
+# Dev artifacts
+.superpowers/
+docs/superpowers/
+.claude/scheduled_tasks.lock
+.claude/scheduled_tasks.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+*.swp

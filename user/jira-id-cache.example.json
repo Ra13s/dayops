@@ -1,0 +1,6 @@
+{
+  "_doc": "Numeric Jira issue ID → key mapping. Cache for Tempo originTaskId resolution. Agent writes to this file when new IDs are resolved via Atlassian MCP. This is the example template — the real cache is gitignored (user-specific).",
+  "_example_format": {
+    "643029": {"key": "PROJ-1401", "project": "PROJ", "summary": "Example task title"}
+  }
+}
